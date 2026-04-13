@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Vite cache
+.vite/
+
+# Node runtime
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Network traffic files
+*.pcap
+*.pcapng
+*.cap
+pcap-files/
+captures/
+
+# User-generated exports (dashboard exports)
+*.csv
+network-traffic-*.json
+exports/
+reports/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+
+# Application specific
+.vite-manifest.json
+ml-models/
+trained-models/
+*.model
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and credentials
+.aws/
+.ssh/
+.credentials
+
+# Generated files
+.next/
+out/
