@@ -444,7 +444,7 @@ const Dashboard: React.FC = () => {
       {report && (
         <div className="p-4 bg-gray-50 border-b border-gray-200">
           <h3 className="font-semibold mb-2 text-sm">Report Preview</h3>
-          <pre className="text-xs whitespace-pre-wrap bg-white p-2 rounded border max-h-48 overflow-auto">{report}</pre>
+          <pre className="text-xs text-gray-900 whitespace-pre-wrap bg-white p-2 rounded border max-h-48 overflow-auto">{report}</pre>
         </div>
       )}
 
